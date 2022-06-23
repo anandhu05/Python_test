@@ -1,5 +1,10 @@
-# Have great start
+from flask import Flask
 
+app= Flask(__name__)
 
-def app(request):
-    return response(request)
+@app.route('/')
+def index():
+    return 'Flask'
+
+if __name__ == '__main__':
+    app.run(debug=True)
