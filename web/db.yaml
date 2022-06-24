@@ -1,4 +1,0 @@
-mysql_host:
-mysql_user:'root'
-mysql_password:'root@123'
-mysql_db:'recipeapp'
